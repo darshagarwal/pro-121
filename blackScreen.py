@@ -2,7 +2,7 @@ import cv2
 import numpy as np  
 
 video = cv2.VideoCapture(0) 
-image = cv2.imread("Temple.jpeg") 
+image = cv2.imread("attractions.jpeg") 
 
 while True: 
 
@@ -28,5 +28,4 @@ while True:
         break 
 
 video.release() 
-out.release()
 cv2.destroyAllWindows() 
